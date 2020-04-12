@@ -1,0 +1,39 @@
+.hero-img img {
+  width: 30%;
+}
+
+.hero-info,
+.hero-info div,
+.hero-update {
+  margin: 20px;
+}
+
+.id {
+  color: #888;
+}
+
+.hero-info,
+.hero-update {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-info div {
+  display: inline-block;
+}
+span {
+  display: block;
+  color: #369;
+  margin: 20px;
+}
+
+input {
+  height: 20px;
+}
+
+.hero-update p,
+.hero-update input {
+  display: inline-block;
+  margin: 30px;
+  color: #369;
+}

@@ -1,0 +1,25 @@
+<h2>{{ hero.name }} Details</h2>
+<div class="hero-img">
+  <img src="{{ hero.image }}" />
+</div>
+<div class="hero-info">
+  <div>
+    <span>id: </span>
+    <span>name: </span>
+  </div>
+  <div>
+    <p class="id">{{ hero.id }}</p>
+    <p>{{ hero.name | uppercase }}</p>
+  </div>
+</div>
+<div class="hero-update">
+  <label>
+    <p>new Name:</p>
+    <input
+      type="text"
+      placeholder="newName"
+      name="name"
+      [(ngModel)]="hero.name"
+    />
+  </label>
+</div>
