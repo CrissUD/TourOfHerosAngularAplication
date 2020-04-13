@@ -1,11 +1,11 @@
 .hero-img img {
-  width: 30%;
+  width: 40%;
 }
 
 .hero-info,
 .hero-info div,
 .hero-update {
-  margin: 20px;
+  margin: 10px;
 }
 
 .id {
@@ -34,6 +34,39 @@ input {
 .hero-update p,
 .hero-update input {
   display: inline-block;
-  margin: 30px;
+  margin: 20px;
   color: #369;
+}
+
+button {
+  margin-left: 30px;
+  color: #fff;
+  background: #369;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(52, 118, 184);
+}
+
+@media (max-width: 800px) {
+  .hero-img img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .hero-img img {
+    width: 60%;
+  }
 }

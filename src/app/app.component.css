@@ -1,0 +1,18 @@
+hr {
+  border-top: 2px solid #ccc;
+  margin: 30px;
+}
+
+a {
+  background: #eeeeee;
+  color: #90a3ad;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+a:hover,
+a.selected {
+  color: #00b0f0;
+}
