@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AddHeroComponent } from './add-hero/add-hero.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'herodashboard',
     component: DashboardComponent,
+  },
+  {
+    path: 'addhero',
+    component: AddHeroComponent,
   },
   {
     path: 'details/:heroId',

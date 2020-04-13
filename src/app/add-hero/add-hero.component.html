@@ -1,0 +1,28 @@
+<h2>Add Hero</h2>
+
+<div class="add">
+  <label
+    >Hero name:
+    <input class="inpName" #heroName />
+  </label>
+  <div class="hero-image">
+    <p>Choose image of Hero</p>
+    <input
+      type="file"
+      name="inpFile"
+      id="inpFile"
+      class="inpFile"
+      (change)="upHeroImage($event, image_preview, span_preview)"
+    />
+    <div class="image-preview-div">
+      <img class="image-preview-img" src="" alt="img_preview" #image_preview />
+      <span class="span_preview" #span_preview>
+        Previa de Imagen
+      </span>
+    </div>
+  </div>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(heroName.value); heroName.value = ''">
+    add
+  </button>
+</div>

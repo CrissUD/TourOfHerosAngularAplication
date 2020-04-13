@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './inmemorydata.service';
+import { AddHeroComponent } from './add-hero/add-hero.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { InMemoryDataService } from './inmemorydata.service';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    AddHeroComponent,
   ],
   imports: [
     BrowserModule,
