@@ -10,6 +10,11 @@
         <p>{{ hero.id }}</p>
       </span>
       {{ hero.name }}
+      <div>
+        <button class="delete" title="delete hero" (click)="delete(hero)">
+          x
+        </button>
+      </div>
     </li>
   </ul>
 </div>

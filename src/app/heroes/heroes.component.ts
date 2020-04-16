@@ -27,4 +27,9 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = hero;
     this.messageService.addMessage(`HeroService: Selected hero ${hero.name}`);
   }
+
+  delete(hero: Hero): void {
+    this.heroes = this.heroes.filter((h) => h !== hero);
+    this.heroService.deleteHero(hero).subscribe();
+  }
 }

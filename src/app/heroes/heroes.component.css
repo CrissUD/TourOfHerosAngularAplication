@@ -54,6 +54,20 @@
   bottom: 8px;
 }
 
+.delete {
+  color: #fff;
+  background: #808080;
+  border: none;
+  border-radius: 12px;
+  height: 35px;
+  width: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 85%;
+  top: -40px;
+}
+
 @media (max-width: 600px) {
   .hero-list,
   .hero-details {
