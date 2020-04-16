@@ -12,6 +12,7 @@
       name="inpFile"
       id="inpFile"
       class="inpFile"
+      #inputFile
       (change)="upHeroImage($event, image_preview, span_preview)"
     />
     <div class="image-preview-div">
@@ -22,7 +23,12 @@
     </div>
   </div>
   <!-- (click) passes input value to add() and then clears the input -->
-  <button (click)="add(heroName.value); heroName.value = ''">
+  <button
+    (click)="
+      add(heroName.value, inputFile.value, image_preview, span_preview);
+      heroName.value = ''
+    "
+  >
     add
   </button>
 </div>
