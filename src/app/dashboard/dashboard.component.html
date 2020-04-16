@@ -1,4 +1,7 @@
 <h2>Top Heroes</h2>
+
+<app-hero-search></app-hero-search>
+
 <div class="grid">
   <a *ngFor="let hero of heroes" [routerLink]="['/details', hero.id]">
     <div class="module">
