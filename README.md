@@ -17,7 +17,7 @@ La aplicación gestiona una lista de heroes que esta contenida en un servidor si
 
 # Demostración
 
-La demostración de la aplicación puede verse a traves de este enlace que contiene el video donde se ve corriendo la aplicación.
+La demostración de la aplicación puede verse a traves del siguiente enlace que contiene el video donde se ve corriendo la aplicación.
 
 [Video de Demostración](https://youtu.be/ogoRtUWpLGQ)
 
